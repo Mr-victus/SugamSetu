@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="status_color_blue">#0e239c</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#070a61</color>
+    <color name="colorBlack">#000000</color>
+    <color name="otp_very_color">#f8344f</color>
+    <color name="cardview_light_background">#c7c7c7</color>
+    <color name="home_page_actionbar">#101fbc</color>
+    <color name="intro_color1">#ff5722</color>
+    <color name="intro_color2">#00bfd9</color>
+    <color name="intro_color3">#8705c7</color>
+    <color name="intro_color4">#4cb050</color>
+    <color name="intro_color5">#546e7a</color>
+    <color name="error">#ef0000</color>
+    <color name="grey">#f3dcdcdc</color>
+    <color name="green">#106807</color>
+    <color name="black">#000000</color>
+    <color name="black_light">#99444444</color>
+    <color name="gray_dark">#616161</color>
+    <color name="gray_light">#9e9e9e</color>
+    <color name="brown">#5d4037</color>
+
+    <color name="indicator_1">#55B3C2</color>
+    <color name="indicator_2">#64A4A4</color>
+    <color name="indicator_3">#66D7B9</color>
+    <color name="indicator_4">#FDBC7D</color>
+    <color name="tab_color_1">#616161</color>
+    <color name="tab_color_2">#0066ff</color>
+    <color name="colorResultpage">#071d6e</color>
+    <color name="signup_sb">#2c0001</color>
+    <color name="Wheat">#F5DEB3</color>
+    <color name="primary">#FF5722</color>
+    <color name="light_green">#00c853</color>
+    <color name="material_blue">#2962ff</color>
+    <color name="material_light_blue">#0091ea</color>
+    <color name="password_new_sb">#fce493</color>
+    <color name="colorWhite">#ffffff</color>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/data_projectid"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="ENTER YOUR PROJECT ID*"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_bg"
+        android:paddingLeft="60dp"
+        />
+
+    <CheckBox
+        android:layout_marginLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/check_p_survey"
+        android:layout_gravity="end"
+        android:text="Priliminary Survey Report"
+        android:textDirection="rtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:layout_marginLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:id="@+id/check_s_survey"
+        android:layout_gravity="end"
+        android:text="Site Survey Report"
+        android:textDirection="rtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:layout_marginLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:id="@+id/check_geo_tech"
+        android:layout_gravity="end"
+        android:text="Geo-Technical Report"
+        android:textDirection="rtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:layout_marginLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:id="@+id/check_d_document"
+        android:layout_gravity="end"
+        android:text="Design Document"
+        android:textDirection="rtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/check_a_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Additional Information"
+        android:textDirection="rtl" />
+
+
+
+        <Button
+            android:id="@+id/btn_checkone"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPLOAD"
+            android:textStyle="bold"
+            android:background="@drawable/btn_brand"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            />
+    <Button
+        android:id="@+id/btn_checktwo"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RETRIVE"
+        android:textStyle="bold"
+        android:background="@drawable/btn_brand"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        />
+
+
+    </LinearLayout>
+</ScrollView>

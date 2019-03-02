@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1039248626513",
+    "firebase_url": "https://sugam-setu-d82b8.firebaseio.com",
+    "project_id": "sugam-setu-d82b8",
+    "storage_bucket": "sugam-setu-d82b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039248626513:android:bcdb94bbdfd61aeb",
+        "android_client_info": {
+          "package_name": "com.example.nirakar.sugamsetu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039248626513-us7puupnpt2fionu450859kr376ov250.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nirakar.sugamsetu",
+            "certificate_hash": "c72c49e02125c589ec9199c2bf7805c809facc47"
+          }
+        },
+        {
+          "client_id": "1039248626513-9bv7s7ff3jt7e4u17hfv34p9i6dv5u5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPHzBGWTLCPQT9XUFKLe_7cp8naI2vZ7U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039248626513-9bv7s7ff3jt7e4u17hfv34p9i6dv5u5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

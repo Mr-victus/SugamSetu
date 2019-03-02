@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:background="@color/colorPrimary"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            app:navigationIcon="@drawable/ic_left_arrow_white"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="MORTH"
+            >
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/appbar"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:fadeScrollbars="false" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="280dp">
+
+        <Button
+            android:id="@+id/accountsection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="50dp"
+            android:height="50dp"
+            android:background="@drawable/ic_accountant" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/accountsection"
+            android:text="ACCOUNT SECTION" />
+
+        <Button
+            android:id="@+id/projectdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/accountsection"
+            android:width="50dp"
+            android:height="50dp"
+            android:background="@drawable/ic_scroll" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/projectdetails"
+            android:layout_marginLeft="95dp"
+            android:text="PROJECT DETAILS" />
+
+        <Button
+            android:id="@+id/datasection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/projectdetails"
+            android:width="50dp"
+            android:height="50dp"
+            android:background="@drawable/ic_folder" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/datasection"
+            android:layout_marginLeft="188dp"
+            android:text="DATA SECTION" />
+
+        <Button
+            android:id="@+id/resourcerequirement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/datasection"
+            android:width="50dp"
+            android:height="50dp"
+            android:background="@drawable/ic_thinking" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resourcerequirement"
+            android:layout_marginLeft="280dp"
+            android:text="RESOURCE REQUIRED" />
+
+        <Button
+            android:id="@+id/progressreport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/accountsection"
+            android:layout_marginTop="50dp"
+            android:width="50dp"
+            android:height="50dp"
+            android:background="@drawable/ic_data_transfer" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressreport"
+            android:layout_marginTop="3dp"
+            android:text="PROGRESS REPORT" />
+
+        <Button
+            android:id="@+id/quickfeatures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/projectdetails"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/progressreport"
+            android:width="50dp"
+            android:height="50dp"
+            android:background="@drawable/ic_seo" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quickfeatures"
+            android:layout_marginLeft="100dp"
+            android:text="QUICK FEATURE" />
+
+        <Button
+            android:id="@+id/casestudy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/datasection"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/quickfeatures"
+            android:width="50dp"
+            android:height="50dp"
+            android:background="@drawable/ic_casestudy" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/casestudy"
+            android:layout_marginLeft="194dp"
+            android:text="CASE STUDY" />
+
+        <Button
+            android:id="@+id/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/resourcerequirement"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/casestudy"
+            android:width="50dp"
+            android:height="50dp"
+            android:background="@drawable/ic_notification" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notification"
+            android:layout_marginLeft="285dp"
+            android:text="NOTIFICATION" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

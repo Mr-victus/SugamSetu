@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#000"
+    tools:context=".ContactUs">
+
+
+   <TextView
+       android:gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="CONTACT DETAILS OF MINISTRY OF ROAD TRANSPORT AND HIGHWAYS"
+       android:textStyle="bold"
+       android:textColor="#fffdfd"
+       android:textSize="18sp"
+       android:layout_marginTop="25dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="For any query please contact us on "
+        android:textStyle="bold"
+        android:textColor="#f9e403"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_gravity="center"
+       android:layout_marginLeft="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CONTACT :"
+        android:textColor="#fcf9fc"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginLeft="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="01123718575"
+        android:textColor="#fcf9fc"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginLeft="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="MAIL :"
+        android:textColor="#fcf9fc"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginLeft="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="awards.morth@gmail.com"
+        android:textColor="#fcf9fc"
+        android:textSize="18sp" />
+</LinearLayout>

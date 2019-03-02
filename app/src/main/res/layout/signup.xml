@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="SIGN UP HERE"
+        android:textColor="#800b3f"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/sign_name"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Enter your name*"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_bg"
+            android:paddingLeft="20dp"
+            />
+        <EditText
+            android:id="@+id/sign_phone"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your contact number*"
+            android:paddingLeft="20dp"
+            android:background="@drawable/edittext_bg"
+            />
+        <EditText
+            android:id="@+id/sign_mail"
+            android:layout_width="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="52dp"
+            android:hint="Enter your email id*"
+            android:paddingLeft="20dp"
+            android:background="@drawable/edittext_bg"
+            />
+    <EditText
+        android:id="@+id/sign_password"
+        android:layout_width="match_parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="52dp"
+        android:hint="Enter your Password*"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edittext_bg"
+        />
+    <EditText
+        android:id="@+id/sign_address"
+        android:layout_width="match_parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="52dp"
+        android:hint="Enter your Address*"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edittext_bg"
+        />
+
+    <com.isapanah.awesomespinner.AwesomeSpinner
+        android:id="@+id/spinner_type"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:spinnerDirection="ltr"
+        android:background="@color/white"
+        app:spinnerHint="Select Your Type" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="12dp"
+        android:text="NOTE - All required fields are mandatory."
+        android:textColor="#03ae9a"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="SIGN UP"
+        android:textSize="27sp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:background="@drawable/btn_brand"
+        />
+
+</LinearLayout>
+</ScrollView>
+
+
+

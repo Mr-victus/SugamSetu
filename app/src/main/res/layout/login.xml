@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#feffff"
+        android:orientation="vertical"
+        tools:context=".Login">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/morth" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="MINISTRY OF ROAD TRANSPORT AND HIGHWAYS"
+            android:textColor="#f50727"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_toRightOf="@+id/text"
+            android:background="@drawable/edittext_bg"
+            android:hint="Enter  your Mail ID"
+            android:paddingLeft="20dp" />
+
+
+        <in.anshul.libray.PasswordEditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="Enter your password"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            app:hide_drawable="@drawable/ic_hide_password"
+            app:password_visible="false"
+            app:show_drawable="@drawable/ic_view_show" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:layout_marginLeft="200dp"
+            android:text="Forgot Password ?"
+            android:textColor="#06f21a"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_brand"
+            android:gravity="center"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp"
+            android:text="LOGIN"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="5dp"
+            android:text="Forgot Password ?"
+            android:textColor="#235128"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</ScrollView>

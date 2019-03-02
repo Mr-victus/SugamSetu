@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADDITIONAL INFORMATION OF BRIDGE SITE"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="#f40606"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Details of catchment area :"
+        android:textSize="14sp"
+        android:textColor="#040278"/>
+    <EditText
+        android:id="@+id/etone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intensity and frequency details of rainfall in catchment :"
+        android:textSize="14sp"
+        android:textColor="#040278"/>
+    <EditText
+        android:id="@+id/ettwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presence of any artificial or natural storage :"
+        android:textSize="14sp"
+        android:textColor="#040278"/>
+    <EditText
+        android:id="@+id/etthree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Possibility of any change in the nature of catchment due to afforestion or deforestation :"
+        android:textSize="14sp"
+        android:textColor="#040278"/>
+    <EditText
+        android:id="@+id/etfour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Survey of locally available material of bridge site :"
+        android:textSize="14sp"
+        android:textColor="#040278"/>
+    <EditText
+        android:id="@+id/etfive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>
